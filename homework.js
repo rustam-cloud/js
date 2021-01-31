@@ -23,13 +23,21 @@ if
 /*
 let b=parseInt(prompt("guess at the number from 1 to 50"));
 if (b== 5) {
-    alert("guessed at the number")
+    alert("guessed at the number");
 } else {
-    alert ('not guessed!!! try again!!!')
+    alert ('not guessed!!! try again!!!');
 }*/
 
 
 //TASK#3
 
+// Пользователю выводится информация “Введи номер месяца”, после ввода выводится сообщение например
+// “Месяц - январь”,  если такого номера месяца не существует “Нет такого месяца”. ^Z
+let b = parseInt(prompt("enter at number of month"));
+if (b == 1) {
+    alert('month is january. you guessed!!');
+} else {
+    alert('you not guessed!');
+}
 
 
