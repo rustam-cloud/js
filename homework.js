@@ -1,43 +1,44 @@
 'use strict'
 
 
-// TASK#1
-/*
-Существует переменная myVar  которой присвоено числовое значение, если ее значение равно 50, тогда программа
-выводит сообщение 'Правильное значение переменной = 50', иначе вывод 'Неверно'.*/
-/*let myVar = 50;
-if
-
-(myVar == 50){
-    alert(myVar);
-} else {alert("that`s not right")};*/
-
-
-//TASK#2
-
-/*Написать программу “Угадай число”, пользователю предоставляется возможность ввести число от 1 до 50, если пользователь
-не угадал число выводится информация например  “Не угадал число меньше”
-или больше, если угадал правильно выводится “Угадал число = 5 !”*/
-
-
-/*
-let b=parseInt(prompt("guess at the number from 1 to 50"));
-if (b== 5) {
-    alert("guessed at the number");
-} else {
-    alert ('not guessed!!! try again!!!');
-}*/
-
-
-//TASK#3
-
-// Пользователю выводится информация “Введи номер месяца”, после ввода выводится сообщение например
-// “Месяц - январь”,  если такого номера месяца не существует “Нет такого месяца”. ^Z
-let b = parseInt(prompt("enter at number of month"));
-if (b == 1) {
-    alert('month is january. you guessed!!');
-} else {
-    alert('you not guessed!');
+// TASK#4
+let a=parseInt(prompt("enter number of month"));
+switch (a) {
+    case 1:
+        alert('Yes, It`s winter');
+        break;
+    case 2:
+        alert('Yes, It`s winter');
+        break;
+    case 3:
+        alert('Yes, It`s spring');
+        break;
+    case 4:
+        alert('Yes, It`s spring');
+        break;
+    case 5:
+        alert('Yes, It`s spring');
+        break;
+    case 6:
+        alert('Yes, It`s summer');
+        break;
+    case 7:
+        alert('Yes, It`s summer');
+        break;
+    case 8:
+        alert('Yes, It`s summer');
+        break;
+    case 9:
+        alert('Yes, It`s autumn');
+        break;
+    case 10:
+        alert('Yes, It`s autumn');
+        break;
+    case 11:
+        alert('Yes, It`s autumn');
+        break;
+    default:
+        alert('Yes, It`s winter');
 }
 
 
