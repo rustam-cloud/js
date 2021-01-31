@@ -5,12 +5,12 @@
 /*
 Существует переменная myVar  которой присвоено числовое значение, если ее значение равно 50, тогда программа
 выводит сообщение 'Правильное значение переменной = 50', иначе вывод 'Неверно'.*/
-let myVar = 50;
+/*let myVar = 50;
 if
 
 (myVar == 50){
     alert(myVar);
-} else {alert("that`s not right")};
+} else {alert("that`s not right")};*/
 
 
 //TASK#2
@@ -20,4 +20,16 @@ if
 или больше, если угадал правильно выводится “Угадал число = 5 !”*/
 
 
-let b=parseInt(prompt())
+/*
+let b=parseInt(prompt("guess at the number from 1 to 50"));
+if (b== 5) {
+    alert("guessed at the number")
+} else {
+    alert ('not guessed!!! try again!!!')
+}*/
+
+
+//TASK#3
+
+
+
