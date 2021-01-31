@@ -18,7 +18,7 @@ let num2 = 15;
 
 //num1 += num2;
 
-
+//
 // if (num1 == num2){
 //     alert('Верно');
 // }else if(num1 >= num2){
