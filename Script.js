@@ -1,59 +1,47 @@
 "use strict";
 
-//let res = 5 % 2;
 
-let a = 5;
+for (let j = 0; j <= 10; j++) {
 
-//let res = eval('8 +5');
+    if (j == 5) break;
 
-//let data =  parseInt('105343.84');
-//let data =  parseInt(prompt('Введи число'));
-
-//let res =  (5 == 5) && (4 != 3 ) ? 'Правильно' : 'Не правильно';
-
-
-let num1 = 5;
-
-let num2 = 15;
-
-//num1 += num2;
-
-//
-// if (num1 == num2){
-//     alert('Верно');
-// }else if(num1 >= num2){
-//     alert('Число больше');
-// }else {
-//     alert('Число меньше');
-// }
-
-
-let myNum = 20;
-
-switch (myNum) {
-
-    case 6:
-    alert('num 6');
-    break;
-
-    case 5:
-    alert('num 5');
-   // myNum = 10;
-    break;
-
-    case 10:
-    alert('num 10');
-    break;
-
-    default:
-    alert('not number');
+    document.write('Итерация =  ' + j + '<br>');
 
 }
 
+try{
+
+    document.write('start' + '<br>');
+    lol;
+    document.write('finish' + '<br>');
+
+
+}catch (e) {
+    document.write(e.name  + '=>' + e.message + '=>' + e.stack);
+}
+
+// finally {
+//     alert('final');
+// }
 
 
 
-//console.log(typeof data);
-//document.write(res);
+//
+//
+// let i = 0
+// while (i<=8){
+//     document.write(i + '<br>');
+//     i++
+// }
 
-//Задача1
+
+
+// for (var i = 0; i <10; i++){
+//     document.write('Итерация  цикла 2 = ' + i + '<br>');
+// }
+
+// let i = 1;
+// do {
+//     document.write(i + '<br>');
+//     i++;
+// } while (i = 0)
