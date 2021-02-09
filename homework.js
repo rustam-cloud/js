@@ -93,6 +93,16 @@ for (let i = 1; i <= 70; i++) {
 //     e=parseInt(prompt("enter a number"));
 // document.write(eval((a+b+c+d+e) / 5));
 
+// let count = 0;
+// let maxCount = 200
+//
+// for (var i = 0; i < maxCount; i++) {
+//     count += parseInt(prompt('Введи число'));
+// }
+// let res = count / maxCount;
+//
+// alert('Среднее арифметическое = ' + res);
+
 /*
 Задача 1.
 Пользователь вводит два числа первое  от 1 до 10, второе от 15 до 30,
